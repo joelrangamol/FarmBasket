@@ -1,0 +1,454 @@
+<html>
+    <head>
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="style3.css"/>
+        <link rel="stylesheet" href="K:\fontawesome\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\css\all.min.css">
+        <script>
+            function stickyMenu(){
+                var sticky=document.getElementById('sticky');
+                if(window.pageYOffset > 220){
+                    sticky.classList.add('sticky');    
+                }
+                else{
+                    sticky.classList.remove('sticky');
+                }
+            }
+            window.onscroll = function(){
+                stickyMenu();
+            }
+        </script>
+    </head>
+    <body>
+        <div class="parallax">
+            <div class="page-title">Nature Fresh</div>
+        </div>
+        <div class="menu" id="sticky">
+            <ul class="menu-ul">
+                <a href="#" class="a-menu"><li>Home</li></a>
+                <a href="#deals" class="a-menu"><li>Deals</li></a>
+                <a href="#vegetables" class="a-menu"><li>Vegetables</li></a>
+                <a href="#fruits" class="a-menu"><li>Fruits</li></a>
+                <a href="#meat" class="a-menu"><li>Meat</li></a>
+                <a href="#" class="a-menu"><li>Cart</li></a>
+            </ul>
+            <div class="search-box">
+                <form>
+                    <input type="text" placeholder="Search..." name="Search" class="search-input">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+                <ul class="menu-ul">
+                    <a href="index.html" class="a-menu"><li>login</li></a>
+                    <a href="index2.html" class="a-menu"><li>Reg.</li></a>
+                    
+                </ul>
+        </div>
+    <!--Home Page Begins-->
+        <div class="container">
+            <a href="#vegetables">
+                <div class="categories">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\peas.webp" class="item-image"/>
+                    <div class="image-title">Vegetables</div>
+                </div>
+            </a>
+            <a href="#fruits">
+                <div class="categories">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\strawberries.jpg" class="item-image"/>
+                    <div class="image-title">Fruits</div>
+                </div>
+            </a>
+            <a href="#meat">
+                <div class="categories">
+                    <img src="C:\Users\Sahil\Desktop\online\meat\ckicken.webp" class="item-image"/>
+                    <div class="image-title">Meat & Seafood</div>
+                </div>
+            </a>
+            <a href="#deals">
+                <div class="categories">
+                    <img src="C:\Users\Sahil\Desktop\online/deal.jpg" class="item-image"/>
+                    <div class="image-title">Deals</div>
+                </div>
+            </a>
+        </div>
+        <!--Deal Begins Here-->
+        <div class="deals-container" id="deals">
+            <div class="parallax">
+                <div class="title">DEALS</div>
+            </div>
+            <div class="deal">
+                Save 20% on min-purchase of Rs.149 on vegetables<br/>
+                <button class="coupon-btn">Add Coupon</button>
+            </div>
+            <div class="deal">
+                Save 15% on min-purchase of Rs.149 on fruits<br/>
+                <button class="coupon-btn">Add Coupon</button>
+            </div>
+            <div class="deal">
+                Save 10% on min-purchase of Rs.149 on meat/seafood<br/>
+                <button class="coupon-btn">Add Coupon</button>
+            </div>
+        </div>
+        <!--Deal Ends Here-->
+        <!--Veg Begins Here-->
+        <div class="deals-container" id="vegetables">
+            <div class="parallax">
+                <div class="title">VEGETABLES</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\tomatoes.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Redish Tomatoes</b><br/>
+                    <div class="item-select">
+                        Price: Rs.30/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\carrots.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Orangish Carrots</b><br/>
+                    <div class="item-select">
+                        Price: Rs.40/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\potatoes.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Fresh Potatoes</b><br/>
+                    <div class="item-select">
+                        Price: Rs.37/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\redonions.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Redish Onions</b><br/>
+                    <div class="item-select">
+                        Price: Rs.40/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\garlic.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Fresh Garlic</b><br/>
+                    <div class="item-select">
+                        Price: Rs.50/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\veg\broccolie.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Greenish Broccolie</b><br/>
+                    <div class="item-select">
+                        Price: Rs.25/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <!--Veg Ends Here-->
+        <!--Fruits Begins Here-->
+        <div class="deals-container" id="fruits">
+            <div class="parallax">
+                <div class="title">FRUITS</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\pomegranate.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Juicy Pomegranate</b><br/>
+                    <div class="item-select">
+                        Price: Rs.60/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\pear.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Green Pear</b><br/>
+                    <div class="item-select">
+                        Price: Rs.40/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\orange.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Fresh Oranges</b><br/>
+                    <div class="item-select">
+                        Price: Rs.67/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\cherries.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Redish Cherries</b><br/>
+                    <div class="item-select">
+                        Price: Rs.45/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\bananas.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Yellow Bananas</b><br/>
+                    <div class="item-select">
+                        Price: Rs.50/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\fruits\blueberries.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>BlueBerries</b><br/>
+                    <div class="item-select">
+                        Price: Rs.55/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <!--Fruits Ends Here-->
+        <!--Meat Begins Here-->
+        <div class="deals-container" id="meat">
+            <div class="parallax">
+                <div class="title">MEAT & SEAFOOD</div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\meat\fish.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Fresh Fish</b><br/>
+                    <div class="item-select">
+                        Price: Rs.60/Per piece
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>01 piece</option>
+                        <option>02 piece</option>
+                        <option>03 piece</option>
+                        <option>04 piece</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\meat\mussels.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Mussels</b><br/>
+                    <div class="item-select">
+                        Price: Rs.400/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\meat\prawns.jpg" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Fresh Prawns</b><br/>
+                    <div class="item-select">
+                        Price: Rs.67/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="C:\Users\Sahil\Desktop\online\meat\ckicken.webp" class="item-image-size"/>
+                </div>
+                <div class="description">
+                    <b>Sliced Chicken</b><br/>
+                    <div class="item-select">
+                        Price: Rs.70/Per Kg
+                    </div>
+                    <label>Qty:</label>
+                    <select class="item-select">
+                        <option>250 grams</option>
+                        <option>500 grams</option>
+                        <option>750 grams</option>
+                        <option>1000 grams</option>
+                    </select><br>
+                    <button class="buynow-btn">Buy Now</button>
+                </div>
+            </div>       
+        </div>
+        <!--Meat Ends Here-->
+    <!--Home Page Ends-->
+    <!--footer starts here-->
+        <div class="parallax1">
+            <div class="footer">
+                <div class="quick-links">
+                    <div>Locations</div>
+                    <ul>
+                        <li><a href="" class="a-link">Mumbai</a></li>
+                        <li><a href="" class="a-link">Pune</a></li>
+                        <li><a href="" class="a-link">Nashik</a></li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <div>Careers</div>
+                    <ul>
+                        <li><a href="" class="a-link">Packing Staff</a></li>
+                        <li><a href="" class="a-link">Delivery Agents</a></li>
+                        <li><a href="" class="a-link">Shelf Fillers</a></li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <div>quick links</div>
+                    <ul>
+                        <li><a href="" class="a-link">Contact Us</a></li>
+                        <li><a href="" class="a-link">FAQ</a></li>
+                        <li><a href="" class="a-link">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <i class="far fa-copyright fa-1x">&#169;</i>2021 By Programmer Sahil More
+        </div>
+    <!--footer ends here-->
+    </body>
+</html>
